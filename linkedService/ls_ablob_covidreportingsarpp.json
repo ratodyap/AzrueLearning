@@ -1,0 +1,12 @@
+{
+	"name": "ls_ablob_covidreportingsarpp",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=covidreportingsarpp;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEUxODUwMkMwLUJDQzgtNEM2Ni1CQ0MwLUJBMkYzNjUyNzA2QV9kMGFmNThiOS1mMDk5LTRlYTYtYmIxNC02YmNiMjM2ZmZiYmIiDQp9"
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"name": "covid-reporting-adf-rpp",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "89ae585c-1a32-450e-832c-5bd80ef95e1d",
+		"tenantId": "7afb9e22-9308-4186-8e29-ea231ff3baf7"
+	}
+}
