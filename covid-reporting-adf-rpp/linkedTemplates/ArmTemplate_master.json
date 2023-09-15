@@ -23,14 +23,6 @@
 			"type": "string",
 			"defaultValue": "@{linkedService().sourceBaseURL}"
 		},
-		"tr_ingest_hospital_admission_data_properties_pl_ingest_cases_deaths_data_parameters_soruceRelativeURL": {
-			"type": "string",
-			"defaultValue": "cloudboxacademy/covid19/raw/main/ecdc_data/hospital_admissions.csv"
-		},
-		"tr_ingest_hospital_admission_data_properties_pl_ingest_cases_deaths_data_parameters_sinkFileName": {
-			"type": "string",
-			"defaultValue": "hospital_admissions.csv"
-		},
 		"tr_ingest_population_data_properties_typeProperties_scope": {
 			"type": "string",
 			"defaultValue": "/subscriptions/6fd4579b-ae63-4b6d-9d81-0b187b6b0cc7/resourceGroups/covid-resource-rpp/providers/Microsoft.Storage/storageAccounts/covidreportingsarpp"
@@ -73,12 +65,6 @@
 					},
 					"ls_http_opendata_ecdc_europa_eu_properties_typeProperties_url": {
 						"value": "[parameters('ls_http_opendata_ecdc_europa_eu_properties_typeProperties_url')]"
-					},
-					"tr_ingest_hospital_admission_data_properties_pl_ingest_cases_deaths_data_parameters_soruceRelativeURL": {
-						"value": "[parameters('tr_ingest_hospital_admission_data_properties_pl_ingest_cases_deaths_data_parameters_soruceRelativeURL')]"
-					},
-					"tr_ingest_hospital_admission_data_properties_pl_ingest_cases_deaths_data_parameters_sinkFileName": {
-						"value": "[parameters('tr_ingest_hospital_admission_data_properties_pl_ingest_cases_deaths_data_parameters_sinkFileName')]"
 					},
 					"tr_ingest_population_data_properties_typeProperties_scope": {
 						"value": "[parameters('tr_ingest_population_data_properties_typeProperties_scope')]"
